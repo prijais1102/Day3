@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h2>List of students.</h2>
+    <ul id="studentlist"></ul>
+    <div id="div1">
+        <form>
+            <table>
+                <tr>
+                <th>
+                    <label>Enter Name</label>
+                </th>
+                <td>
+                    <input type="text" id="txtname">
+                </td>
+                </tr>
+                <tr>
+                <th>
+                    <label>Enter Address</label>
+                </th>
+                <td>
+                    <input type="text" id="txtaddress">
+                </td>
+                </tr>
+                <tr>
+                <th>
+                    <label>Enter Batch</label>
+                </th>
+                <td>
+                    <input type="text" id="txtbatch" onkeydown="Add(event)">
+                </td>
+                </tr>
+            </table>
+
+        </form>
+    </div>
+    <span>
+        <button onclick="addRecord()">Add new record</button>
+        <button onclick="deleteRecord()">Delete record</button>
+    </span>
+    <h1 id="count"> </h1>
+    <h1 id="count1"></h1>
+    <script src="script.js"></script>
+</body>
+</html>

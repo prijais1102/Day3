@@ -1,0 +1,10 @@
+body{
+    background-color:aqua;
+}
+#div1{
+    display: none;
+    float:right;
+    width:50%;
+    margin-top: 0;
+    padding-top: 0;
+}
